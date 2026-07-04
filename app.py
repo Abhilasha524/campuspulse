@@ -43,7 +43,7 @@ if uploaded_file is not None:
             return "color: green"
 
     display_df = df[["student_name", "attendance_%", "avg_grade", "missed_assignments", "risk_score", "risk_level"]]
-    styled = display_df.style.applymap(color_risk, subset=["risk_level"])
+    styled = display_df.style.map(color_risk, subset=["risk_level"])
     st.dataframe(styled, use_container_width=True)
 
     st.divider()
