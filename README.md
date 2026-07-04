@@ -4,7 +4,7 @@ AI-powered tool that identifies at-risk students based on
 attendance, grades, and missed assignments.
 
 ## Live Demo
-https://campuspulse-clrxtrgmbr4b8wimpmcvte.streamlit.app/
+https://campuspulse-ksxizcacfydmjgydssbsq4.streamlit.app/
 
 ## Tech Stack
 Python | Pandas | Streamlit
